@@ -149,9 +149,13 @@ prd,
 
 \preprint{}
 
-\title{Correlations of conserved charges and QCD phase structure}
+\title{Phase structure of the Quark-Meson model}
 
 \author{Rui Wen}
+\affiliation{School of Physics, Dalian University of Technology, Dalian, 116024,
+  P.R. China}
+
+\author{Yong-rui Chen}
 \affiliation{School of Physics, Dalian University of Technology, Dalian, 116024,
   P.R. China}
 
@@ -165,7 +169,7 @@ prd,
 
 \begin{abstract}
 
-Correlations of conserved charges, 
+ 
 
 
 \end{abstract}
@@ -191,16 +195,44 @@ A
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{2+1 flavor low energy effective theory}
-\label{sec:PQM}
+\section{2 flavor quark meson model}
+\label{sec:QM}
 
-form
+The effective action of the quark-meson model reads
+\begin{align}
+	\Gamma_k [\Phi]&=\int_x\{Z_{q,k} \bar q (\gamma_\mu \partial_\mu-\gamma_0 \mu)q +\frac{1}{2} Z_{\phi,k}(\partial_\mu \phi)^2 \nonumber\\[2ex]
+	&+ k_k \bar q (T^0 \sigma +i \gamma_5 T \cdot \pi )q +V_k(\rho) - c \sigma \} \label{}
+\end{align}
+$\rho=\frac{1}{2}\phi^2$
+\begin{align}
+	\bar m_\pi&=\frac{V_k'(\rho)}{k^2 Z_{\phi,k}} \\[2ex]
+	\bar m_\sigma&= \frac{V_k'(\rho)+2 \rho V_k''(\rho)} {k^2 Z_{\phi,k}}\\[2ex]
+	\bar m_q&=\frac{h_k^2 \rho}{2 k^2 Z_{q,k}^2}
+\end{align}
+with the Wetterich equation
 
+\begin{align}
+	\partial_t V_k(\rho) &=\frac{k^4}{4 \pi^2} \{ ( N_f^2-1)l_0^B(m_{\pi,k},\eta_{\phi,k} ; T)\nonumber\\[2ex]
+	&+l_0^B(m_{\sigma,k},\eta_{\phi,k}; T) \nonumber\\[2ex]
+	&-4N_c N_f l_0^F(m_{q,k},\eta_{q,k};T,\mu)\}
+\end{align}
+here $l_0^{B/F}$ are threshold functions which are defined as
+\begin{align}
+	l_0^B(\bar m_{\phi,k}^2,\eta_{\phi,k}) &=\frac{2}{3}\frac{1}{\sqrt{1+\bar m_{\phi,k}^2}} \Big ( 1-\frac{\eta_{\phi,k}}{5}\Big) \nonumber\\[2ex] 
+	&\Big( \frac{1}{2}+n_B(\bar m_{\phi,k}^2,T) \Big)  \\[2ex]
+	l_0^F(\bar m_{q,k}^2,\eta_{q,k})&=\frac{1}{3} \frac{1}{\sqrt{1+\bar m_{q,k}^2}} \Big(1-\frac{\eta_{q,k}}{4}\Big) \nonumber\\[2ex]
+	&\Big(1-n_F(E-\mu)-n_F(E+\mu))
+\end{align}
+
+\begin{align}
+	\eta_{\phi,k}&=\frac{1}{6\pi^2} \Big\{ \frac{4}{k^2} \rho (V_k'(\rho))^2
+\end{align}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Thermodynamics at finite chemical potentials}
-\label{sec:Thermo}
+\section{Results}
+\label{sec:Results}
 
+\subsection{phase diagram at chiral limit}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
