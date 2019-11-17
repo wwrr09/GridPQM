@@ -6,7 +6,7 @@
 %Control: page (0) single
 %Control: year (1) truncated
 %Control: production of eprint (0) enabled
-\begin{thebibliography}{2}%
+\begin{thebibliography}{7}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -70,4 +70,68 @@
   {\  (\bibinfo {year} {2019})},\ \Eprint {http://arxiv.org/abs/1907.10262}
   {arXiv:1907.10262 [hep-ph]} \BibitemShut {NoStop}%
 %%CITATION = ARXIV:1907.10262;%%
+\bibitem [{\citenamefont {Herbst}\ \emph {et~al.}(2014)\citenamefont {Herbst},
+  \citenamefont {Mitter}, \citenamefont {Pawlowski}, \citenamefont {Schaefer},\
+  and\ \citenamefont {Stiele}}]{Herbst:2013ufa}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.~K.}\ \bibnamefont
+  {Herbst}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Mitter}},
+  \bibinfo {author} {\bibfnamefont {J.~M.}\ \bibnamefont {Pawlowski}}, \bibinfo
+  {author} {\bibfnamefont {B.-J.}\ \bibnamefont {Schaefer}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {R.}~\bibnamefont {Stiele}},\ }\href {\doibase
+  10.1016/j.physletb.2014.02.045} {\bibfield  {journal} {\bibinfo  {journal}
+  {Phys. Lett.}\ }\textbf {\bibinfo {volume} {B731}},\ \bibinfo {pages} {248}
+  (\bibinfo {year} {2014})},\ \Eprint {http://arxiv.org/abs/1308.3621}
+  {arXiv:1308.3621 [hep-ph]} \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1308.3621;%%
+\bibitem [{\citenamefont {Alkofer}\ \emph {et~al.}(2019)\citenamefont
+  {Alkofer}, \citenamefont {Maas}, \citenamefont {Mian}, \citenamefont
+  {Mitter}, \citenamefont {París-López}, \citenamefont {Pawlowski},\ and\
+  \citenamefont {Wink}}]{Alkofer:2018guy}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Alkofer}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Maas}},
+  \bibinfo {author} {\bibfnamefont {W.~A.}\ \bibnamefont {Mian}}, \bibinfo
+  {author} {\bibfnamefont {M.}~\bibnamefont {Mitter}}, \bibinfo {author}
+  {\bibfnamefont {J.}~\bibnamefont {París-López}}, \bibinfo {author}
+  {\bibfnamefont {J.~M.}\ \bibnamefont {Pawlowski}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {N.}~\bibnamefont {Wink}},\ }\href {\doibase
+  10.1103/PhysRevD.99.054029} {\bibfield  {journal} {\bibinfo  {journal} {Phys.
+  Rev.}\ }\textbf {\bibinfo {volume} {D99}},\ \bibinfo {pages} {054029}
+  (\bibinfo {year} {2019})},\ \Eprint {http://arxiv.org/abs/1810.07955}
+  {arXiv:1810.07955 [hep-ph]} \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1810.07955;%%
+\bibitem [{\citenamefont {Pawlowski}\ and\ \citenamefont
+  {Rennecke}(2014)}]{Pawlowski:2014zaa}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~M.}\ \bibnamefont
+  {Pawlowski}}\ and\ \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont
+  {Rennecke}},\ }\href {\doibase 10.1103/PhysRevD.90.076002} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Rev.}\ }\textbf {\bibinfo {volume}
+  {D90}},\ \bibinfo {pages} {076002} (\bibinfo {year} {2014})},\ \Eprint
+  {http://arxiv.org/abs/1403.1179} {arXiv:1403.1179 [hep-ph]} \BibitemShut
+  {NoStop}%
+%%CITATION = ARXIV:1403.1179;%%
+\bibitem [{\citenamefont {Fu}\ and\ \citenamefont
+  {Pawlowski}(2016)}]{Fu:2015amv}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {W.-j.}\ \bibnamefont
+  {Fu}}\ and\ \bibinfo {author} {\bibfnamefont {J.~M.}\ \bibnamefont
+  {Pawlowski}},\ }\href {\doibase 10.1103/PhysRevD.93.091501} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Rev.}\ }\textbf {\bibinfo {volume}
+  {D93}},\ \bibinfo {pages} {091501} (\bibinfo {year} {2016})},\ \Eprint
+  {http://arxiv.org/abs/1512.08461} {arXiv:1512.08461 [hep-ph]} \BibitemShut
+  {NoStop}%
+%%CITATION = ARXIV:1512.08461;%%
+\bibitem [{\citenamefont {Rennecke}\ and\ \citenamefont
+  {Schaefer}(2017)}]{Rennecke:2016tkm}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {F.}~\bibnamefont
+  {Rennecke}}\ and\ \bibinfo {author} {\bibfnamefont {B.-J.}\ \bibnamefont
+  {Schaefer}},\ }\href {\doibase 10.1103/PhysRevD.96.016009} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Rev.}\ }\textbf {\bibinfo {volume}
+  {D96}},\ \bibinfo {pages} {016009} (\bibinfo {year} {2017})},\ \Eprint
+  {http://arxiv.org/abs/1610.08748} {arXiv:1610.08748 [hep-ph]} \BibitemShut
+  {NoStop}%
+%%CITATION = ARXIV:1610.08748;%%
 \end{thebibliography}%

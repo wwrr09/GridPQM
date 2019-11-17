@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.6.18)  16 NOV 2019 21:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.6.18)  17 NOV 2019 19:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -455,32 +455,33 @@ LaTeX Font Info:    Try loading font information for U+bbold on input line 206.
 
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/bbold/Ubbold.fd)
-Underfull \hbox (badness 1087) in paragraph at lines 214--215
-[]\OT1/cmr/m/n/10 The renor-mal-ized di-men-sion-less me-son and quark
- []
-
-
-Underfull \hbox (badness 1308) in paragraph at lines 257--258
+Underfull \hbox (badness 1308) in paragraph at lines 259--260
 []\OT1/cmr/m/n/10 The work was sup-ported by the Na-tional Nat-u-
  []
 
-(./grid.bbl [1{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex
-.map}]) [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 268.
+[1{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+(./grid.bbl
+Underfull \hbox (badness 1152) in paragraph at lines 81--90
+ \OT1/cmr/m/n/9 fer,  and R. Stiele, []Phys. Lett. \OT1/cmr/bx/n/9 B731\OT1/cmr
+/m/n/9 , 248 (2014)[],
+ []
+
+) [2]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 279.
  (./grid.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 268.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 268.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 279.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 279.
 Package rerunfilecheck Info: File `grid.out' has not changed.
-(rerunfilecheck)             Checksum: BA7BE749D3DBAD868AC0EE6E904D0834;520.
+(rerunfilecheck)             Checksum: 07C3C018F4020EA7221F8C4681904645;585.
  ) 
 Here is how much of TeX's memory you used:
- 8185 strings out of 492649
- 114403 string characters out of 6129607
- 255990 words of memory out of 5000000
- 11930 multiletter control sequences out of 15000+600000
+ 8212 strings out of 492649
+ 114914 string characters out of 6129607
+ 235343 words of memory out of 5000000
+ 11950 multiletter control sequences out of 15000+600000
  17022 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 34i,12n,29p,1010b,376s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 34i,12n,29p,1110b,376s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2018/texmf-dist/fonts/type1/public/bbold-type1/bbold10.pf
 b></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><
@@ -498,10 +499,10 @@ e/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2
 texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2018/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2018/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on grid.pdf (2 pages, 185829 bytes).
+Output written on grid.pdf (2 pages, 193636 bytes).
 PDF statistics:
- 145 PDF objects out of 1000 (max. 8388607)
- 121 compressed objects within 2 object streams
- 22 named destinations out of 1000 (max. 500000)
- 65 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 178 PDF objects out of 1000 (max. 8388607)
+ 154 compressed objects within 2 object streams
+ 29 named destinations out of 1000 (max. 500000)
+ 73 words of extra memory for PDF output out of 10000 (max. 10000000)
 
