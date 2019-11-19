@@ -198,31 +198,41 @@ A
 \section{2 flavor quark meson model}
 \label{sec:QM}
 
-The effective action of the quark-meson model reads
+The effective action of the 2 flavor quark-meson model reads \cite{Fu:2015naa}
 \begin{align}
-	\Gamma_k [\Phi]&=\int_x\{Z_{q,k} \bar q (\gamma_\mu \partial_\mu-\gamma_0 \mu)q +\frac{1}{2} Z_{\phi,k}(\partial_\mu \phi)^2 \nonumber\\[2ex]
-	&+ k_k \bar q (T^0 \sigma +i \gamma_5 T \cdot \pi )q +V_k(\rho) - c \sigma \} \label{}
+	\Gamma_k [\Phi]&=\int_x\{Z_{q,k} \bar q (\gamma_\mu \partial_\mu-\gamma_0 \mu)q +\frac{1}{2} Z_{\phi,k}(\partial_\mu \phi)^2  \nonumber\\[2ex]
+	&+ h_k \bar q (T^0 \sigma +i \gamma_5\vec{T} \cdot \vec{\pi} )q +V_k(\rho) - c \sigma \} \label{eq:effective action}
 \end{align}
-$\rho=\frac{1}{2}\phi^2$
+with the integral $\int_x=\int_0^{1/T}d_{x_0}\int d^3 x$. $T$ and $\mu$ denote the temperature and quark chemical potential,  respectively. The meson/quark wave function $Z_{\phi,k}/Z_{q,k}$ are scale and field dependent. Moreover, in this work we ignore the  longitudinal  and transversal  splitting of $Z_k$, i.e., $Z_k^\parallel $ and $Z_k^\perp$,  respectively, and an interesting discussion is presented in Ref. \cite{Yin:2019ebz}. $T^0$ and $\vec{T}$ are generators of $SU (N_f=2)$ with $\Tr(T^iT^j)=\frac{1}{2} \delta^{ij}$ and $T^0=\frac{1}{\sqrt{N_f}} \mathbb{1}_{N_f \times N_f}$. Quark and meson interaction is encoded in Yukawa coupling $h_k$ in \Eq{eq:effective action}. The effective potential $V_k(\rho)$ is scale and field dependent and chirally invariant with chirally invariant variable $\rho=\frac{1}{2}\phi^2$. $\phi=(\sigma ,\vec{\pi})$ is the meson field and its vacuum expectation value $\phi_0=(\sigma,0)$. The linear sigma term $- c \sigma$ explicitly breaks the chiral symmetry.
+
+We introduce the renormalized field and renormalized coupling parameters
+\begin{align}
+	\bar{\phi}=Z_{\phi} ^{1/2}\phi , \quad \bar{h}=\frac{h}{Z_\phi^{1/2} Z_q}
+\end{align}
+And the field dependent renormalized dimensionless meson and quark masses are obtained by
 \begin{align}
 	\bar m_\pi&=\frac{V_k'(\rho)}{k^2 Z_{\phi,k}} \\[2ex]
 	\bar m_\sigma&= \frac{V_k'(\rho)+2 \rho V_k''(\rho)} {k^2 Z_{\phi,k}}\\[2ex]
-	\bar m_q&=\frac{h_k^2 \rho}{2 k^2 Z_{q,k}^2}
+	\bar m_q&=\frac{h_k^2 \rho}{2 k^2 Z_{q,k}^2}\label{eq:mass}
 \end{align}
-with the Wetterich equation
+the masses given above are curvature masses which distinguish from the pole and screening masses \cite{Herbst:2013ufa,Alkofer:2018guy}..
+
+The QM model at various truncations have been investigated in Ref. \cite{Pawlowski:2014zaa,Fu:2015naa,Fu:2015amv,Rennecke:2016tkm,Yin:2019ebz}. However, all of these investigation are based on Taylor expansion technology which only consider field dependent at the neighborhood of vacuum expectation value $\phi_0$, while the full field dependent is not included. In \cite{Pawlowski:2014zaa}, they show a good match of chiral phase diagram between Taylor expansion solution and  grid solution within LPA truncations at low chemical potential. However, the Taylor expansion technology disables to resolve the problem at high chemical potential and low temperature.
+
+Due to the Matsubara
+ 
+Then with the Wetterich equation
+\begin{align}
+	\partial_t \Gamma_k [\Phi] = \frac{1}{2}\Tr G_{\phi \phi} [\Phi]  \partial_t R^\phi_k-\Tr G_{q \bar q}[\Phi] \partial_t R^q_k
+\end{align}
+with the regulators $R^\phi_k,R^q_k$ are defined in Eq{...}
 
 \begin{align}
 	\partial_t V_k(\rho) &=\frac{k^4}{4 \pi^2} \{ ( N_f^2-1)l_0^B(m_{\pi,k},\eta_{\phi,k} ; T)\nonumber\\[2ex]
 	&+l_0^B(m_{\sigma,k},\eta_{\phi,k}; T) \nonumber\\[2ex]
 	&-4N_c N_f l_0^F(m_{q,k},\eta_{q,k};T,\mu)\}
 \end{align}
-here $l_0^{B/F}$ are threshold functions which are defined as
-\begin{align}
-	l_0^B(\bar m_{\phi,k}^2,\eta_{\phi,k}) &=\frac{2}{3}\frac{1}{\sqrt{1+\bar m_{\phi,k}^2}} \Big ( 1-\frac{\eta_{\phi,k}}{5}\Big) \nonumber\\[2ex] 
-	&\Big( \frac{1}{2}+n_B(\bar m_{\phi,k}^2,T) \Big)  \\[2ex]
-	l_0^F(\bar m_{q,k}^2,\eta_{q,k})&=\frac{1}{3} \frac{1}{\sqrt{1+\bar m_{q,k}^2}} \Big(1-\frac{\eta_{q,k}}{4}\Big) \nonumber\\[2ex]
-	&\Big(1-n_F(E-\mu)-n_F(E+\mu))
-\end{align}
+here $l_0^{B/F}$ are threshold functions which are defined in \ref{app:threshold_fun}
 
 \begin{align}
 	\eta_{\phi,k}&=\frac{1}{6\pi^2} \Big\{ \frac{4}{k^2} \rho (V_k'(\rho))^2
@@ -246,16 +256,25 @@ In this work, we have studied
 
 \begin{acknowledgments}
 
-We thank the members of the fQCD collaboration \cite{fQCD} for work on related projects. The work was supported by the National Natural Science Foundation of China under Contracts Nos. 11775041.
+The work was supported by the National Natural Science Foundation of China under Contracts Nos. 11775041.
 
 \end{acknowledgments}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\appendix
+
+\section{Threshold Functions}
+\label{app:threshold_fun}
+\begin{align}
+	l_0^B(\bar m_{\phi,k}^2,\eta_{\phi,k}) &=\frac{2}{3}\frac{1}{\sqrt{1+\bar m_{\phi,k}^2}} \Big ( 1-\frac{\eta_{\phi,k}}{5}\Big) \nonumber\\[2ex] 
+	&\Big( \frac{1}{2}+n_B(\bar m_{\phi,k}^2,T) \Big)  \\[2ex]
+	l_0^F(\bar m_{q,k}^2,\eta_{q,k})&=\frac{1}{3} \frac{1}{\sqrt{1+\bar m_{q,k}^2}} \Big(1-\frac{\eta_{q,k}}{4}\Big) \nonumber\\[2ex]
+	&\Big(1-n_F(E-\mu)-n_F(E+\mu))
+\end{align}
 
 
-
-\bibliography{ref-lib.bib}% Produces the bibliography via BibTeX.
+\bibliography{ref.bib}% Produces the bibliography via BibTeX.
 
 \end{document}
 %
